@@ -34,11 +34,8 @@ string processString(const std::string& input) {
     if (dotPos != std::string::npos) {
         result.erase(dotPos);
     }
-    
-
     return result;
 }
-
 
 int main() {
     ifstream inputFile("file_list.csv");
@@ -79,8 +76,6 @@ int main() {
             stringstream ss(newstr);
             string token;
             
-            
-
             while (getline(ss, token, '_')) {
                 tokens.push_back(token);
             }
@@ -169,19 +164,11 @@ for (const auto& entry : studentMap) {
     outputFile << answeredQuestions << endl;
 }
 
-    
-
-    
     inputFile.close();
     inputFile.close();
     outputFile.close();
     errorLogFile.close();
 
     cout << "Output generated successfully. Check error_log.txt for any errors." << endl;
-
-
-    // Close the file
-    
-
     return 0;
 }
