@@ -1,0 +1,4 @@
+Error: Misnamed file - File Name
+Error: Duplicate student ID in the same group - 2211011080 for file c_2_2211011080.cpp
+Error: Duplicate student ID in the same group - 2211011048 for file d_1_2211011048.cpp
+Error: Duplicate student ID in the same group - 2111011094 for file GroupC_Q3_2111011094.txt
