@@ -11,7 +11,7 @@ Input File: Ensure that the input CSV file, file_name.csv, is present in the sam
 Compile: Compile the program using a C++ compiler. For example:
 
 ```bash
-g++ csvReader.cpp -o a.out
+g++ csvReader.cpp
 ```
 Run: Execute the compiled program:
 ```bash
